@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrowdTech</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600&display=swap');
+    </style>
+    <script>
+        var client;
+        function clientStorage() {
+            client = document.getElementById("client").value;
+            localStorage.client = client;
+        }
+        var product;
+        function productStorage() {
+            product = document.getElementById("product").value;
+            localStorage.product = product;
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img id="headerpic" src="./images/image-hero-desktop.jpg" alt="imagem de uma mesa com computador">
+        </div>
+    </header>
+    <main>
+        <section id="containercad">
+            <h1>CADASTROS</h1>
+            <div>
+                <a href="cadclientes.html">
+                    <input type="button" name="bclientes" id="bclientes" value="Clientes">
+                </a>
+                <a href="cadprodutos.html">
+                    <input type="button" name="bprodutos" id="bprodutos" value="Produtos">
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

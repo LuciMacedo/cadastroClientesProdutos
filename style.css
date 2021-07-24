@@ -1,0 +1,56 @@
+header {
+    background-color: hsl(0, 0%, 48%);
+
+}
+body {
+    font-size: 20px;
+    font-family: 'Commissioner', sans-serif;
+    background-color: rgba(255, 251, 251, 0.726);
+}
+h1 {
+    font-weight: 300px;
+}
+#headerpic {
+    max-width: 1300px;
+    display: block;
+    position: center;
+    margin: auto;
+    padding: 15px;
+}
+
+#containercad {
+    position: relative;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.582);
+    color: black;
+    text-align: center;
+    height: 400px;
+}
+input {
+    color: black;
+    background-color: hsl(176, 52%, 36%);
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 15px;
+}
+form {
+
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582);
+    color: black;
+    text-align: center;
+    height: 500px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
